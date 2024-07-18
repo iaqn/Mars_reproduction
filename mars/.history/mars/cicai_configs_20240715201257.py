@@ -255,9 +255,9 @@ KITTI_Recon_Mars_Car_Depth = MethodSpecification(
 '''
 ###################-------------------------KITTI ID 6--------------------------##########################
 ###add semantic 
-KITTI_Recon_Mars_Car_Depth_Semantic = MethodSpecification(
+KITTI_Recon_Mars_Car_Depth = MethodSpecification(
     config=TrainerConfig(
-        method_name="mars-kitti-car-depth-recon_semantic",
+        method_name="mars-kitti-car-depth-recon",
         steps_per_eval_image=STEPS_PER_EVAL_IMAGE,
         steps_per_eval_all_images=STEPS_PER_EVAL_ALL_IMAGES,
         steps_per_save=STEPS_PER_SAVE,
