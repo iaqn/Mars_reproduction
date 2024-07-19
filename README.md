@@ -262,7 +262,7 @@ https://github.com/user-attachments/assets/9dc4a335-82f3-4055-8d4f-e793231c8ca6
 https://github.com/user-attachments/assets/3f742008-c534-4d31-9b26-4617dbeca300
 
 ### VKITTI
-The reason for the video repetition is due to the binocular camera.
+The reason for the video repetition is due to the binocular camera.<br/>
 **VKITTI-ID4 的渲染结果:**
 
 https://github.com/user-attachments/assets/6e4384c0-897a-4541-97e1-42877a58f03e
