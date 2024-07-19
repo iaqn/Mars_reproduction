@@ -245,7 +245,7 @@
 - * ID 1 is our default setting.
 - * Red text(the second bold line) represents results from 300k iterations on the KITTI scene 06.
 - * Blue text(the third bold line)  represents results from 200k iterations on the V-KITTI scene 02.<br/>
-sorry there can't display the colors.
+Sorry, colors cannot be displayed.
 
 ## 渲染结果
 ### KITTI
