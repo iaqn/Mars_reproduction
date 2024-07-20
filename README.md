@@ -293,7 +293,7 @@ pip install mars-nerfstudio
 git clone --recursive https://github.com/nvlabs/tiny-cuda-nn
 cd tiny-cuda-nn
 ```
-Build the project using CMake
+Build the project using CMake:
 ```bash
 cmake -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.4/bin/nvcc . -B build
 cmake --build build --config RelWithDebInfo -j
