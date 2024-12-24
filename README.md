@@ -305,6 +305,23 @@ python setup.py install
 ```
 
 ### References:
+##### dataset download
+- https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+- https://www.cvlibs.net/datasets/kitti/eval_tracking.php
+- https://waymo.com/open/download/
+#### installation
+- Pytorch Version: https://stackoverflow.com/questions/76678846/pytorch-version-for-cuda-12-2
+- Cmake: https://zhuanlan.zhihu.com/p/519732843
+#### resources
 - https://blog.csdn.net/weixin_42896263/article/details/131978295
 - https://blog.csdn.net/weixin_45818708/article/details/137588790
+- https://blog.csdn.net/weixin_38842821/article/details/125933604
+#### paper link
+- (2th)  https://arxiv.org/abs/2111.12077
+- (7th)  https://arxiv.org/abs/2107.02791
+- (19th) https://arxiv.org/abs/2201.05989
+- (22th) https://arxiv.org/abs/2111.14643
+- (31th) https://arxiv.org/abs/2206.00665
+- (34th) https://arxiv.org/abs/2103.15875
+- 
 
