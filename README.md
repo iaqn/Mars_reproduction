@@ -1,10 +1,10 @@
-# Mars_reproduction
-这是对论文《MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving》的复现。  
-官方开源链接为：[MARS GitHub 仓库](https://github.com/OPEN-AIR-SUN/mars)
-由于数据量过于庞大的原因，有两个文件夹`dataset`和`outputs`并没有上传。
-不过在这里，你可以查看四组消融实验的wanb报告，里面有完整可视化的数据。
-[MARS模型-KITTI报告](https://api.wandb.ai/links/202105710102-zhejiang-university-of-technology/i19tssj9)
-[MARS模型-KITTI报告](https://api.wandb.ai/links/202105710102-zhejiang-university-of-technology/xosf9mpr)
+# Mars_reproduction  
+This is a reproduction of the paper **"MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving"**.  
+The official open-source link is: [MARS GitHub Repository](https://github.com/OPEN-AIR-SUN/mars)  
+Due to the large volume of data, two folders, `dataset` and `outputs`, have not been uploaded.  
+However, you can view four sets of ablation experiment reports on WandB, which contain complete visualized data.  
+[MARS Model - KITTI Report](https://api.wandb.ai/links/202105710102-zhejiang-university-of-technology/i19tssj9)  
+[MARS Model - KITTI Report](https://api.wandb.ai/links/202105710102-zhejiang-university-of-technology/xosf9mpr)
 
 ## Quantitative Evaluation for Ablation Studies
 
@@ -247,27 +247,27 @@
 - * Blue text(the third bold line)  represents results from 200k iterations on the V-KITTI scene 02.<br/>
 Sorry, colors cannot be displayed.
 
-## 渲染结果
+## Rendering Results
 ### KITTI
-**KITTI-ID1 的渲染结果:**
+**Rendering result for KITTI-ID1:** 
 
 https://github.com/user-attachments/assets/fa346d00-6df3-4491-85aa-22e8dfa852c4
 
-**KITTI-ID4 的渲染结果:**
+**Rendering result for KITTI-ID4:** 
 
 https://github.com/user-attachments/assets/9dc4a335-82f3-4055-8d4f-e793231c8ca6
 
-**KITTI-ID6 的渲染结果:**
+**Rendering result for KITTI-ID6:** 
 
 https://github.com/user-attachments/assets/3f742008-c534-4d31-9b26-4617dbeca300
 
 ### VKITTI
 The reason for the video repetition is due to the binocular camera.<br/>
-**VKITTI-ID4 的渲染结果:**
+**Rendering result for VKITTI-ID4:**  
 
 https://github.com/user-attachments/assets/6e4384c0-897a-4541-97e1-42877a58f03e
 
-**VKITTI-ID6 的渲染结果:**
+**Rendering result for VKITTI-ID6:**
 
 https://github.com/user-attachments/assets/11dc77d8-fc15-49cf-aa62-53ea385054c9
 
