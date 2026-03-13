@@ -1,10 +1,18 @@
 # Mars_reproduction  
+>Special thanks to Prof. Zhang Yongliang from the College of Computer Science at Zhejiang University of Technology for his strong support of this experiment and for providing the computing resources required for it.
+
+
+# Contents
+- [English](#english)
+- [Chinese Simplified (中文)](#中文)
+
 This is a reproduction of the paper **"MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving"**.  
 The official open-source link is: [MARS GitHub Repository](https://github.com/OPEN-AIR-SUN/mars)  
 Due to the large volume of data, two folders, `dataset` and `outputs`, have not been uploaded.  
 However, you can view four sets of ablation experiment reports on WandB, which contain complete visualized data.  
 [MARS Model - KITTI Report](https://api.wandb.ai/links/202105710102-zhejiang-university-of-technology/i19tssj9)  
 [MARS Model - KITTI Report](https://api.wandb.ai/links/202105710102-zhejiang-university-of-technology/xosf9mpr)
+
 
 ## Quantitative Evaluation for Ablation Studies
 
@@ -324,3 +332,83 @@ python setup.py install
 - (31th) https://arxiv.org/abs/2206.00665
 - (34th) https://arxiv.org/abs/2103.15875
 
+
+## License
+Unless otherwise stated, the source code in this repository is licensed under the [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+
+All non-code materials in this repository, including but not limited to reports, PDFs, figures, screenshots, and other documentation, are not covered by the GPL license.
+Without the author's prior written permission, these materials may not be reproduced, reposted, redistributed, or used for commercial purposes.
+
+## 中文
+>特别感谢浙江工业大学计算机学院张永良老师对本次实验的大力支持，并为本次实验提供了所需的计算资源。
+
+本项目为浙江大学软件学院 2024 年“元宇宙与智能驾驶营”任务 1 优秀营员项目存档。现将其公开，仅供参加夏令营的同学学习参考。**未经作者书面许可，禁止转载、传播、售卖或用于任何商业用途。**
+
+> [!WARNING]
+> 报告均由本人独立完成，并在后期使用 AI 工具进行辅助润色。受个人水平所限，内容仅供参考，请谨慎甄别。
+
+> [!NOTE]
+> 写在后面：报告写得一坨不想开源，但想着 0 基础完成的这个项目也能拿优营或许可以鼓励后来者。夏令营为期两周，第一周选完任务之后速成nerf、3d gaussian、mipnerf360 etc，第二周跑代码写报告。本仓库仅在 GitHub 发布，其他平台或渠道均为搬运。若发现未经授权售卖本仓库非代码材料（如报告等）的行为，欢迎举报。
+
+> # 任务 1：基于神经渲染的街景三维重建技术
+>
+> 街景三维重建技术指通过采集多角度街景图像数据，在计算机中模拟并还原出街道及其周边环境的真实三维场景。这一技术不仅关注静态场景的重建，还特别注重包含行驶车辆和行人的动态街景的三维重建。
+>
+> 随着神经渲染技术的发展，许多前沿研究已基于 **NeRF** 或 **3D Gaussian** 等方法，对街景三维重建进行了深入优化与探索。以下三个子任务是递进关系，其中**子任务 1、2 必做**，**子任务 3 选做**；能力较强的同学可以三个子任务都完成。
+>
+> ---
+>
+> ## 子任务 1
+>
+> 在街景三维重建任务中，通过自车传感器采集数据是至关重要的一环。当前，存在多个主流的自动驾驶数据集，如 **KITTI**、**Waymo Open**、**PandaSet** 和 **nuScenes** 等，它们为街景三维重建等计算机视觉任务提供了丰富的实际场景数据。
+>
+> 请调研并比较上述例举的数据集，并针对街景三维重建任务进行论述。
+>
+> ---
+>
+> ## 子任务 2
+>
+> 当前，基于神经渲染的街景三维重建算法主要聚焦于两种主要方法：
+>
+> - 基于 **NeRF** 的算法
+> - 基于 **3D Gaussian** 的算法
+>
+> 请选择其中一种方式，深入了解 **NeRF** 或 **3D Gaussian** 的原理，并进一步选取一篇基于该方式的街景三维重建工作的论文，详细阐述其：
+>
+> - 关键技术
+> - 当前存在的问题
+> - 潜在的改进方向
+>
+> 论文建议来自以下目录中的 **A 类论文**：
+>
+> - 《中国计算机学会推荐国际学术会议和期刊目录》
+> - 《清华大学新版计算机学科推荐学术会议和期刊列表》
+>
+> ### 部分推荐参考论文
+>
+> 1. **Neural Scene Graphs for Dynamic Scenes.** CVPR 2021.  
+> 2. **MARS: An Instance-aware, Modular and Realistic Simulator for Autonomous Driving.** CICAI 2023.  
+> 3. **UniSim: A Neural Closed-Loop Sensor Simulator.** CVPR 2023.  
+> 4. **EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision.** ICLR 2024.  
+> 5. **Street Gaussians for Modeling Dynamic Urban Scenes.**
+>
+> ---
+>
+> ## 子任务 3
+>
+> 选择一个在子任务 1 中提及的数据集，并下载其中部分数据。随后，采用子任务 2 中阐述的方法，下载相关开源代码并进行训练复现，对重建结果进行精度评估，例如：
+>
+> - **PSNR**
+> - **SSIM**
+> - **LPIPS**
+>
+> 针对在重建过程中发现的不足之处，提出具体的改进意见和建议。
+>
+> 最后，撰写一份详细报告，内容应涵盖：
+>
+> - 数据处理过程
+> - 复现步骤
+> - 实验结果
+> - 改进意见等
+>
+> ---
